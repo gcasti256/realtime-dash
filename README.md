@@ -1,20 +1,22 @@
 # Realtime Dash
 
+![Build](https://github.com/gcasti256/realtime-dash/actions/workflows/ci.yml/badge.svg)
 ![Vite](https://img.shields.io/badge/Vite-6.x-646CFF?logo=vite&logoColor=white)
 ![React](https://img.shields.io/badge/React-19-61DAFB?logo=react&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-5.x-3178C6?logo=typescript&logoColor=white)
-![Recharts](https://img.shields.io/badge/Recharts-2.x-22b5bf)
+![Node.js](https://img.shields.io/badge/Node.js-%3E%3D18-339933?logo=node.js&logoColor=white)
 ![License](https://img.shields.io/badge/License-MIT-green)
 
-A real-time data visualization dashboard built with React, TypeScript, and Recharts. Features live-updating widgets for crypto markets, weather, GitHub activity, and system metrics -- all driven by mock data generators that simulate streaming feeds.
+A real-time data visualization dashboard built with React, TypeScript, and Recharts. Four live-updating widgets -- crypto markets, weather, GitHub activity, and system metrics -- refresh every 3 seconds with smoothly drifting mock data, all rendered in a responsive dark-themed grid that collapses cleanly on mobile.
 
 ---
 
-## Screenshots
+## Demo
 
-| Desktop (2x2 grid) | Mobile (single column) |
-|---------------------|------------------------|
-| *screenshot here*   | *screenshot here*      |
+<!-- Add screenshots here -->
+<!-- ![Desktop](docs/screenshot-desktop.png) -->
+<!-- ![Mobile](docs/screenshot-mobile.png) -->
+_Screenshot: capture desktop (2x2 grid) and mobile (single column) views into `docs/` and uncomment the lines above._
 
 ---
 
@@ -55,7 +57,7 @@ A real-time data visualization dashboard built with React, TypeScript, and Recha
 
 ```bash
 # Clone the repo
-git clone <your-repo-url> realtime-dash
+git clone https://github.com/gcasti256/realtime-dash.git
 cd realtime-dash
 
 # Install dependencies
@@ -104,4 +106,4 @@ realtime-dash/
 
 ## License
 
-MIT
+MIT -- George Castillo
